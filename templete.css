@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffb6c1;
+  margin-left: 40%;
+font-size:bold ;
+}
+div{
+    top: 55%;
+    left: 50%;
+
+    background-color: #ffb6c1;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+
+}
+  

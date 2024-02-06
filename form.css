@@ -1,0 +1,41 @@
+
+body{
+    background-color: black;
+}h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+ color: #ffb6c1;
+margin-left: 40%;
+   }
+form{
+    border: #d4a6c1;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+padding: 2%;
+border-radius: 3px;
+background-color: #FFE7E7;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+height: 30px;
+    border-radius: 5px;
+margin: 5px;
+margin-left: 10px;
+
+}
+#message{
+    border-radius: 5px;  
+    margin-top: 5px;
+}
+.submit{
+    width: 150px;
+    border-radius: 20px;
+margin-left: 70px;
+background-color: #ffb6c1;
+transition: width 2s, height 4s;
+}
+.submit:hover {
+    width: 165px;
+  }

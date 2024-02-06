@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>User Information Form</title>
+</head>
+<body>
+    <h2>User Information Form</h2>
+    <form id="userInfoForm" action="/templete.html" method="post">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="faculty">faculty:</label>
+        <input type="text" id="faculty" name="faculty" required><br><br>
+
+        <label for="level">Level:</label>
+        <input type="text" id="level" name="level" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        
+        <input type="submit" value="Submit" class="submit">
+    </form>
+
+    <script src="/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Template</title>
+    <link rel="stylesheet" href="/templete.css">
+</head>
+<body>
+    <h2>User Information Template</h2>
+    <div id="userDataDisplay">
+        <!-- User data will be displayed here -->
+    </div>
+
+    <script>
+        // Retrieve data from local storage
+        var userData = localStorage.getItem("userData");
+        
+        // Parse JSON data
+        var userDataObj = JSON.parse(userData);
+        
+        // Display data on the page
+        var userDataDisplay = document.getElementById("userDataDisplay");
+        for (var key in userDataObj) {
+            userDataDisplay.innerHTML += "<p><strong>" + key + ":</strong> " + userDataObj[key] + "</p>";
+        }
+    </script>
+</body>
+</html>
